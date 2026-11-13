@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="nb">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>SjokoDesigneren</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Source+Sans+3:wght@400;600;700&display=swap">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<!-- INNHOLD START -->
+<div class="pynt" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+<div class="side">
+  <p class="proto"><strong>Studentprototype</strong> (IS-219, UiA, gruppe 16). Ingen bestilling eller betaling gjennomføres. Sjokolader, toppinger, allergener og priser er eksempeldata.</p>
+  <header class="topp">
+    <div class="merke"><span class="merke-ikon" aria-hidden="true"></span><span>Sjoko<b>Designeren</b></span></div>
+    <nav aria-label="Steg i bestillingen"><ol class="steg" id="steg"></ol></nav>
+  </header>
+  <div class="vimpler" aria-hidden="true"></div>
+  <main id="app" class="app">
+    <section id="trinn"></section>
+    <aside id="visning" aria-label="Forhåndsvisning" hidden></aside>
+  </main>
+</div>
+<div id="melding" class="melding" role="status" aria-live="polite"></div>
+<!-- INNHOLD SLUTT -->
+<script src="js/data.js"></script>
+<script src="js/regler.js"></script>
+<script src="js/plate.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
